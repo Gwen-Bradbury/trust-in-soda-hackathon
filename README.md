@@ -1,108 +1,301 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Name
 
-Welcome USER_NAME,
+## Introduction
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Apple Devices Picture](./documentation/responsive.png)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+A link to our website can be found [here]()
 
-## Gitpod Reminders
+## UX
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### Goals -
 
-`python3 -m http.server`
+### Wireframes -
+We have produced a mock up of the websites pages. You can view them [here](./WIREFRAMES.md)
 
-A blue button should appear to click: _Make Public_,
+### Design -
 
-Another blue button should appear to click: _Open Browser_.
+#### Design Process -
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+1. _Strategy Plane_ -
 
-A blue button should appear to click: _Make Public_,
+2. _Scope Plane_ -
 
-Another blue button should appear to click: _Open Browser_.
+3. _Structure Plane_ -
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- _Database Structure_ - 
 
-To log into the Heroku toolbelt CLI:
+4. _Skeleton Plane_ -
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+5. _Surface Plane_ -
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+#### Colour Pallette -
 
-------
+#### Font -
 
-## Release History
+## User Stories
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Target Audience -
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+### As a Site User -
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### As a Site Superuser -
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+### As a Developer -
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+## Features
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+-   Responsive on all device sizes.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+-   Interactive elements.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### Existing Features - 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+#### Features Visiable across All Pages -
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+#### Features Visiable on each page -
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### Features left to Implement -
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Bugs and Fixes Implemented after Testing -
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Technologies Used
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Backend Technologies -
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+1. **Gunicorn 20.0.4:** Gunicorn ‘Green Unicorn’ is a Python WSGI HTTP Server for UNIX. The Gunicorn server is broadly compatible with 
+various web frameworks, simply implemented, light on server resources, and fairly speedy. https://docs.gunicorn.org/en/stable/
 
-------
+2. **Pillow 4.3.0:** The Python Imaging Library adds image processing capabilities to your Python interpreter. This library provides
+extensive file format support, an efficient internal representation, and fairly powerful image processing capabilities. 
+https://pillow.readthedocs.io/en/stable/handbook/overview.html
 
-## FAQ about the uptime script
+3. **Psycopg2 2.8.5:** Psycopg is the most popular PostgreSQL database adapter for the Python programming language. Its main features are 
+the complete implementation of the Python DB API 2.0 specification and the thread safety. https://pypi.org/project/psycopg2/ 
 
-**Why have you added this script?**
+4. **boto3 1.14.5:** Boto is the Amazon Web Services (AWS) SDK for Python. It enables Python developers to create, configure, and manage AWS 
+services, such as EC2 and S3. https://boto3.amazonaws.com/v1/documentation/api/latest/index.html
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+### Languages -
 
-**How will this affect me?**
+1. **HTML5, or Hyper Text Markup Language:** Used to construct the page withn this app -   
+https://developer.mozilla.org/en-US/docs/Web/HTML
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+2. **CSS3, or Cascading Style Sheets:** Used to style the various elements on the app's pages via coloring, fonts, spacing, etc. - 
+https://www.w3.org/Style/CSS/Overview.en.html
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+3. **Javascript:** A programming language - https://www.javascript.com/
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+4. **JQuery:** A programming language - https://jquery.com/
 
-**So….?**
+5. **Python3:** A programming language - https://www.python.org/
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+6. **Jinja:** A programming language - https://jinja.palletsprojects.com/
 
-**Can I opt out?**
+7. **Bson and Json:**  A computer data interchange format - https://www.mongodb.com/json-and-bson
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+### Libraries -
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+### API's - 
 
-**Anything more?**
+1. **Django:** A web framework - https://www.djangoproject.com/
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+### Databases -
 
----
+1. **Postgres:** Open Source Database - https://www.postgresql.org/
 
-Happy coding!
+2. **sqLite3:** SQL Database Engine - https://www.sqlite.org/
+
+### Tools -
+
+1. **Gitpod:** An online IDE also used for creating & saving code that runs in a browser, it does not have to be installed on your PC - 
+https://www.gitpod.io/
+
+2. **Git:** A version control system for tracking changes in source code during software development - https://git-scm.com/
+
+3. **Github:** A company that provides hosting for software development version control using Git. It is a subsidiary of Microsoft - https://github
+
+4. **Heroku:** An application platform. allowing users to build, run and operate applications - https://www.heroku.com
+
+5. **Django Secret Key Generator:** Generates Django secret keys - https://miniwebtool.com/django-secret-key-generator/
+
+6. **Chrome DevTools:** A set of web developer tools built directly into the Google Chrome browser. I used these tools constantly thoughout the development cycle -
+   https://developers.google.com/web/tools/chrome-devtools
+
+7. **W3C Markup Validation Service:** Used to run all html and css code through a validation process looking for errors - https://validator.w3.org/
+   https://jigsaw.w3.org/css-validator/validator
+
+8. **Pep8:** Python Validator used to run all python code through to look for errors -  http://pep8online.com/
+
+9. **JSHint:** Javascript Validator used to run all JS code through looking for errors - https://jshint.com/
+
+10. **Free Formatter:** A HTML formatter that Formatted my HTML 2 spaces per indent - https://www.freeformatter.com/
+
+## Testing
+
+We carried out substantial testing on the websites pages and links. You can see the results of the tests [here](./TESTING.md)
+
+### Validation of Code Testing -
+
+#### HTML - 
+
+All Pages tested using [W3C](https://validator.w3.org/nu/) HTML Validator.
+
+#### CSS -
+
+All Pages tested using [W3C](https://jigsaw.w3.org/css-validator/) CSS Validator.
+
+#### Javascript -
+
+All JS and JQuery tested using [JSHint](https://jshint.com/) Javascript Validator.
+
+#### Python -
+
+All Python tested using [PEP8](http://pep8online.com/) Python Validator.
+
+> Note: ``` python3 -m flake8 ``` was run and all the errors and warnings associated with my own code, were fixed.
+Line to long errors within the code generated by Django and code from the migrations were left as developers shouldn't need to touch them.
+Errors left within our own code are - 
+
+## Deployment
+
+This website was developed in Gitpod and pushed to the remote repositories, GitHub and Heroku. The live page is hosted on Heroku.
+
+### Used Commands during Deployment -
+
+1. git add . - To add files to staging area.
+
+2. git commit -m "message here" - To commit the files.
+
+3. git push - To push the committed files to the origin master branch on github.
+
+4. git push heroku master - To push the commited files to the origin master branch on heroku.
+
+5. git status - To see the current state of the files.
+
+6. python3 manage.py migrate - Runs migrations.
+
+7. python3 manage.py create superuser - Creates Superuser.
+
+8. python3 manage.py dumpdata - To create json data files.
+
+9. export DATABASE_URL= "your value from heroku" - To connect Gitpod to Postgres.
+
+10. python3 manage.py loaddata - Loads the dumps into Postgres.
+
+### Hosting on Heroku -
+
+In order to successfully deploy the app, the following steps were taken:
+
+1. Log into your Heroku account, create new app.
+
+2. Choose app name and closest region.
+
+3. On Resources tab, provision Heroku Postgres.
+	 
+4. Back in gitpod, install the following via these commands:
+	- ```pip3 install dj database url```
+	- ```pip3 install psycopg2 binary```
+
+5. Freeze the requirements to update the requirements.txt file. This makes sure Heroku installs all apps when deployed:
+	- ```pip3 freeze > requirements.txt```
+
+6. To get the database setup, go to settings.py and import dj_database_url.
+
+7. In databases settings, comment out default configuration and replace the default database with a call to dj_database_url.parse, and give it the database URL from Heroku stored in your config variables (under the app settings tab).
+
+8. Now run all migrations with:
+    - ```python 3 manage.py migrate```
+
+9. Then create a superuser with:
+	- ```python3 manage.py create superuser```
+
+10.	Back in settings.py remove the Heroku database config, and uncomment the original so our database URL doesn't end up in version control.
+
+11.	Then commit to github.
+
+12.	Using an if statement in settings.py, to allow access to Postgres when running on Heroku, where database URL environment variable is defined, otherwise connecting to sqlite. 
+
+13. Install unicorn, which will act as our webserver, then freeze that into requirements.txt:
+	- ```pip3 install gunicorn```
+	- ```pip3 freeze > requirements.txt```
+
+14.	Create Procfile, enter the following to tell Heroku to create a web dyno, which will run unicorn and serve our django app:
+	- ```web: gunicorn APP_NAME.wsgi:application```
+
+15. Temporarily disable collectstatic. 
+
+16.	Add the hostname of our Heroku app to allowed hosts in settings.py, and localhost:
+	- ```ALLOWED_HOSTS = ['YOUR-APP-NAME.herokuapp.com', 'localhost']```
+
+17.	Add/commit changes to github.
+
+18.	To deploy to Heroku, enter (you may need to initialize your Heroku git remote if you created your app on the website rather than the CLI):
+    - ```git push heroku master```
+
+19.	To automatically deploy on Heroku when committing to github - on your Heroku dashboard go to Deploy > Github, search for your repository and click Connect.
+
+20.	Click Enable Automatic Deploys.
+
+21.	Add a new secret key in your Heroku Config Vars (you can use an online Django secret key generator to do this). 
+
+22.	Now you can replace the secret key in settings.py with a call to get this from the environment.
+
+23.	Commit/push these changes to github.
+
+### Forking the GitHub Repository -
+
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original 
+repository by using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+
+3. You should now have a copy of the original repository in your GitHub account.
+
+### Running this Project Locally -
+
+You will need to install the following to run this locally:
+
+- An IDE 
+- Python3 to run the application
+- PIP to install all app requirements
+- Django
+- SQlite or Postgres Databases
+- GIT for cloning and version control
+
+To run this code on your local machine, you would go to my respository at
+https://github.com/Gwen-Bradbury/trust-in-soda-hackathon and on the home page on the right hand side just above all the files, you will see a green button that says,
+"Clone or download", this button will give you options to clone with HTTPS, open in desktop or download as a zip file.
+To continue with cloning, you would;
+
+- Open Git Bash
+- Change the current working directory to the location where you want the cloned directory to be made.
+- Type git clone, and then paste this URL; https://github.com/Gwen-Bradbury/trust-in-soda-hackathon.git Press Enter. Your local clone will be created.
+
+For more information about the above process; https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository
+
+## Credits
+
+### Content -
+
+1. Colour Scheme
+
+2. Wireframes
+
+3. Data Schema
+
+### Media -
+
+1. Table of contents
+
+4. Tutorial Videos
+
+- [Code-Institute](https://codeinstitute.net/)
+
+### Acknowledgements -
+
+## Disclaimer
+
+#### This website was made for educational purposes only
