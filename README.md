@@ -8,6 +8,9 @@ A link to our website can be found [here]()
 
 ## UX
 
+### Overview
+Diverspect is an online forum where users can provide feedback and suggestions to companies to make the workplace more accessible. It can be a forum for people from all walks of life in any industry where they need their voice heard about what can be done to improve inclusivity in the workplace. User cna sign up for an account, post a comment, edit and delete their comments and read comments added by other users.
+
 ### Goals -
 
 ### Wireframes -
