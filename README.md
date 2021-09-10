@@ -1,4 +1,4 @@
-# Name
+# Diverspect
 
 ## Introduction
 
@@ -30,6 +30,8 @@ We have produced a mock up of the websites pages. You can view them [here](./WIR
 5. _Surface Plane_ -
 
 #### Colour Pallette -
+
+Blue/ Yellow/ Green / Red
 
 #### Font -
 
