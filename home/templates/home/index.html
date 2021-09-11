@@ -1,28 +1,31 @@
-  
 {% extends "base.html" %}
+
 {% load static %}
 
 {% block page_header %}
-    <div class="container header-container">
-        <div class="row">
-            <div class="col"></div>
+<!-- Push Content Down Page -->
+<div class="container header-container">
+    <div class="row">
+        <div class="col">
         </div>
     </div>
+</div>
 {% endblock %}
 
 {% block content %}
-    <div class="container h-100">
-        <div class="row h-100">
-            <div class="col-7 col-md-6 my-auto">
-                <h1 class="display-4 logo-font text-black">
-                    Diverspect
-                </h1>
-                <div class="my-5">
-                    <h4>
-                        <a href="#" class="btn btn-lg rounded-0 text-uppercase py-3">View Forum</a>
-                    </h4>
-                </div>
+<div class="jumbotron-section"> 
+    <div class="row jumbotron-container">
+        <div class="col-12">
+            <div class="jumbotron text-center jumbotron-content">
+                <h5 class="pt-1">Welcome to Diverspect!</h5>
+                <p>The home of inclusivity!</p>
+                <h2>
+                    <a href="{% url 'forum' %}" class="display-4 headline-links btn btn-lg text-uppercase">
+                        Forum
+                    </a>
+                </h2>
             </div>
         </div>
     </div>
+</div>
 {% endblock %}
