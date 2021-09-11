@@ -10,13 +10,14 @@ A link to our website can be found [here]()
 
 ## UX
 
-### Overview
+### **Overview**
 Diverspect is an online forum where users can provide feedback and suggestions to companies to make the workplace more accessible. It can be a forum for people from all walks of life in any industry where they need their voice heard about what can be done to improve inclusivity in the workplace. User can sign up for an account, post a comment, edit and delete their comments and read comments added by other users.
 
-**Introduction on the name of our team and website.**
-The project name Diverspect came from a blended word Diverspection (diverse + perspective), which documents a different approach to understanding and dealing with complexity in psychosocial environments. The approach is based on abandoning the traditional view on roles and processes in organizations
+### **Why Diverspect?**
 
-### Goals -
+The project name Diverspect came from a blended word Diverspection (diverse + perspective), which documents a different approach to understanding and dealing with complexity in psychosocial environments. The approach is based on abandoning the traditional view on roles and processes in organizations.
+
+### Goals
 
 As a site owner, we would like to provide a safe online space for users to share information and express their voices relating the challenges they encounter in their workplaces.  
 
@@ -58,8 +59,9 @@ We have produced a mock up of the websites pages. You can view them [here](./WIR
 
 	* As a site creator we would like :
 
-	  * To provide safe and friendly site that any people can gain and share information in order to tackle their everyday challenge at their workplace
+	  * To provide safe and friendly site that anyone can gain and share information in order to tackle their everyday challenge at their workplace
 	  * To promote diversity and inclusion
+	  * To promote awareness of everyday accessibility issues in the workplace
 	  
 
 
@@ -124,7 +126,7 @@ services, such as EC2 and S3. https://boto3.amazonaws.com/v1/documentation/api/l
 
 ### Languages -
 
-1. **HTML5, or Hyper Text Markup Language:** Used to construct the page withn this app -   
+1. **HTML5, or Hyper Text Markup Language:** Used to construct the page within this app -   
 https://developer.mozilla.org/en-US/docs/Web/HTML
 
 2. **CSS3, or Cascading Style Sheets:** Used to style the various elements on the app's pages via coloring, fonts, spacing, etc. - 
