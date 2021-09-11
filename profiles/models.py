@@ -9,8 +9,9 @@ class UserProfile(models.Model):
     A user profile model for maintaining default
     profile information and post history
     """
+    image_url = models.URLField(max_length=1024, default="", blank=True)
+    image = models.ImageField(default="", blank=True)
     user = models.OneToOneField(User, on_delete=models.CASCADE)
-    default_name = models.CharField(max_length=80, null=True, blank=True)
     default_email_address = models.CharField(max_length=80, null=True, blank=True)
 
     def __str__(self):
