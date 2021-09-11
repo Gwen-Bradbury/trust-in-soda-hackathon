@@ -34,6 +34,10 @@ a:link, a:visited {
     color: var(--black);
 }
 
+.navbar {
+    background-color: var(--malachite);
+}
+
 #logo img {
     width: 150px;
     margin-left: 10px;
@@ -60,6 +64,15 @@ a:link, a:visited {
     background-color: darkred;
 }
 
+#menu li:nth-child(2) {
+    background-color: var(--malachite);
+    border-radius: 10px;
+}
+
+#menu li:nth-child(2):hover {
+    background-color: #3F704D;
+}
+
 #menu li:last-child {
     background-color: var(--lapis-lazuli);
     border-radius: 10px;
@@ -75,11 +88,77 @@ a:link, a:visited {
 }
 
 .grid {
-    width: 80%;
+    width: 65%;
+    height: 100%;
     margin: 0 auto;
     padding: 10px;
-    min-height: 100vh;
+}
+
+.title {
     text-align: center;
+    padding: 50px 0 5px;
+}
+
+.title {
+    font-weight: 700;
+}
+
+hr {
+    width: 5%;
+    margin: 0 auto;
+}
+
+.spaced-between-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.follow-icon {
+    font-weight: 500;
+}
+
+.follow-icon i {
+    font-size: 2em;
+    padding: 5px;
+}
+
+.green-icon {
+    font-weight: 500;
+}
+
+.green-icon i {
+    font-size: 2.5em;
+    padding: 5px;
+    color: var(--malachite);
+}
+
+.green-icon a:hover, .follow-icon a:hover {
+    text-decoration: underline;
+}
+
+.orange-icon i {
+    font-size: 2.5em;
+    padding: 5px;
+    color: var(--tart-orange);
+}
+
+.blue-icon i {
+    font-size: 2.5em;
+    padding: 5px;
+    color: var(--lapis-lazuli);
+}
+
+.subtitle {
+    font-size: 1.4em;
+}
+
+.grid p {
+    text-align: justify;
+    width: 65%;
+    margin: 0 auto;
+    padding: 15px 0;
 }
 
 .page-header {
@@ -107,6 +186,14 @@ a:link, a:visited {
     width: 30%;
     cursor: pointer;
     text-align: center;
+}
+
+.image {
+    width: 60%;
+    height: auto;
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
 }
 
 #form {
@@ -182,4 +269,14 @@ input[type="submit"]:hover {
 
 input[type="reset"]:hover {
     background-color: darkred;
+}
+
+#footer {
+    text-align: center;
+    color: var(--white);
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 70px;
+    padding: 20px;
+    background-color: var(--lapis-lazuli);
 }
