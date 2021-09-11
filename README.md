@@ -2,6 +2,8 @@
 
 ## Introduction
 
+This site was created as part of a hackathon programme organised by Code Institute in collaboration with Trust in SODA.
+
 ![Apple Devices Picture](./documentation/responsive.png)
 
 A link to our website can be found [here]()
@@ -9,9 +11,17 @@ A link to our website can be found [here]()
 ## UX
 
 ### Overview
-Diverspect is an online forum where users can provide feedback and suggestions to companies to make the workplace more accessible. It can be a forum for people from all walks of life in any industry where they need their voice heard about what can be done to improve inclusivity in the workplace. User cna sign up for an account, post a comment, edit and delete their comments and read comments added by other users.
+Diverspect is an online forum where users can provide feedback and suggestions to companies to make the workplace more accessible. It can be a forum for people from all walks of life in any industry where they need their voice heard about what can be done to improve inclusivity in the workplace. User can sign up for an account, post a comment, edit and delete their comments and read comments added by other users.
+
+**Introduction on the name of our team and website.**
+The project name Diverspect came from a blended word Diverspection (diverse + perspective), which documents a different approach to understanding and dealing with complexity in psychosocial environments. The approach is based on abandoning the traditional view on roles and processes in organizations
 
 ### Goals -
+
+As a site owner, we would like to provide a safe online space for users to share information and express their voices relating the challenges they encounter in their workplaces.  
+
+We aim to highlight the issues expressed on our site to companies. We hope that companies then make better educated decisions to improve their inclusive work space.
+
 
 ### Wireframes -
 We have produced a mock up of the websites pages. You can view them [here](./WIREFRAMES.md)
@@ -21,6 +31,37 @@ We have produced a mock up of the websites pages. You can view them [here](./WIR
 #### Design Process -
 
 1. _Strategy Plane_ -
+   
+   **User Stories**
+   This site is created based on the following user’s expectations in mind.
+
+   * As a first time user I would like to:
+     
+	 * Have a clear information on what the site is about and what it provides
+	 * Have an easy navigation that is consistent throughout the website
+	 * Consistent layout without any confusing elements
+	 * Some control to improve the site experience for visually impaired 
+	 * Accessibility considerations are taken throughout the site
+	 * Have an easy and safe sign-up option
+	 * Have a safe space to share information or express opinions
+	 * Have a control to edit and delete the post I have entered on the site but nobody else should be allowed to modify my post
+	 * Have clear feedback for my action taken within the site 
+	 * Search the post to find relevance information to my needs
+	 * Follow the relevant post or user 
+	 * Option to opt out
+
+    * A returning user would like to have the following in addition to the above:
+	  
+	  * Quick login option
+	  * Searching the post by categories to find relevant information quickly
+	  * Ability to quickly check the response to my post
+
+	* As a site creator we would like :
+
+	  * To provide safe and friendly site that any people can gain and share information in order to tackle their everyday challenge at their workplace
+	  * To promote diversity and inclusion
+	  
+
 
 2. _Scope Plane_ -
 
