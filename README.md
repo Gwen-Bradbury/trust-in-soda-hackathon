@@ -172,9 +172,9 @@ Wireframes created can be found [HERE](./WIREFRAMES.md)
 
 - _Database Structure_ 
 
-1. _Skeleton Plane_
+4. _Skeleton Plane_ - 
 
-2. _Surface Plane_
+5. _Surface Plane_ -
 
 [Back to top ⇧](#diverspect)
 
