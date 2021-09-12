@@ -48,6 +48,7 @@ a:link, a:visited {
     margin-left: 10px;
 }
 
+
 #menu {
     display: flex;
     flex-direction: row;
@@ -102,6 +103,7 @@ a:link, a:visited {
 .title {
     text-align: center;
     padding: 30px 0 5px;
+    color: #fff;
 }
 
 .title {
@@ -220,6 +222,15 @@ hr {
     margin: 20px auto;
 }
 
+.search-btn {
+    margin-top: 5px;
+}
+
+.profile-link {
+    font-size: 15px;
+    font-weight: bold;
+}
+
 input[type="submit"] {
     background-color: var(--lapis-lazuli);
     color: var(--white);
@@ -276,8 +287,15 @@ input[type="reset"]:hover {
     background-color: darkred;
 }
 
+.img-avatar {
+    border-radius: 50px;
+}
 
-#footer {
+.footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    
     text-align: center;
     color: var(--white);
     font-weight: 500;
@@ -286,6 +304,7 @@ input[type="reset"]:hover {
     padding: 20px;
     background-color: var(--lapis-lazuli);
 }
+
 
 .footer-headline {
     text-decoration: underline;
@@ -482,5 +501,15 @@ header {
 
     .increment-qty, .decrement-qty {
         padding: .25rem .5rem !important;
+    }
+}
+
+@media (max-width: 440px) {
+    .welcome-text {
+        font-size: 15px;
+    }
+
+    .forum-btn {
+        font-size: 15px;
     }
 }
