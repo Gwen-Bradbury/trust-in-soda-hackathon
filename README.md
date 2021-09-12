@@ -11,18 +11,13 @@
 		- [Wireframes -](#wireframes--)
 		- [Design](#design)
 			- [Design Process](#design-process)
-		- [Colour Pallette](#colour-pallette)
-		- [Font](#font)
 	- [User Stories](#user-stories)
 		- [Target Audience](#target-audience)
 		- [As a Site User I want to...](#as-a-site-user-i-want-to)
 		- [As a Site Superuser](#as-a-site-superuser)
 		- [As a Developer](#as-a-developer)
-	- [Features](#features)
-		- [Existing Features](#existing-features)
-		- [Future Features](#future-features)
 			- [Features Visiable across All Pages](#features-visiable-across-all-pages)
-			- [Features Visiable on each page](#features-visiable-on-each-page)
+			- [Features Visiable on each pages:](#features-visiable-on-each-pages)
 		- [Features left to Implement](#features-left-to-implement)
 		- [Bugs and Fixes Implemented after Testing](#bugs-and-fixes-implemented-after-testing)
 	- [Technologies Used](#technologies-used)
@@ -225,19 +220,27 @@ Wireframes created can be found [HERE](./WIREFRAMES.md)
 
 ### Target Audience
 1. People with disabilities wishing to share their experiences of how their disabilities impact their online usage. Such as sites catering to their disabilities, or how workplaces help with their disabilities
-1. Helping the general public share their everyday experiences of how their life is impacted by the lack of inclusivity in the workplace and online.
+2. Helping the general public share their everyday experiences of how their life is impacted by the lack of inclusivity in the workplace and online.
 
 ### As a Site User I want to...
 
 1. Be able to leave a comment on someone elses post, to help share my thoughts on the post and maybe offer some advice to the other user
-1. Create my own account that stores my information so that I am able to make my own posts and leave comments on other users posts
-1. Be able to browse all the posts from other users
-1. Be able to edit any of the posts or comments that I leave on the site.
-1. Be able to delete any of the posts or comments that I leave on the site.
+2. Create my own account that stores my information so that I am able to make my own posts and leave comments on other users posts
+3. Be able to browse all the posts from other users
+4. Be able to edit any of the posts or comments that I leave on the site.
+5. Be able to delete any of the posts or comments that I leave on the site.
 
 ### As a Site Superuser
 
+1. As a superuser, I expect to be able to add/edit/delete forums and comments easily.
+2. Be able to monitor other comments and users.
+3. Be able to keep tracking the users behavior through the site.
+
 ### As a Developer
+
+1. As I develop, I want all the features to be working as expected.
+2. I want the user to have the best experience browsing the site. 
+3. I want to showcase my skills in UX/UI design, Python Language, Django, JS etc.
 
 [Back to top ⇧](#diverspect)
 
@@ -325,6 +328,8 @@ https://www.w3.org/Style/CSS/Overview.en.html
 -----
 
 ### Libraries
+
+1. **Font Awesome:** for icons. - https://fontawesome.com/ 
 
 ### API's
 
