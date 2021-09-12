@@ -58,7 +58,7 @@
         <hr>
         <div class="grid">
             <div class="spaced-between-row">
-                {% for forum in forums %}
+                {% for forum in forum %}
                     <div class="row">
                         <div class="col-12 col-md-6 col-lg-4 offset-lg-2">
                             <!-- Get 'Forum Image' or 'No Image' Image -->
@@ -88,20 +88,23 @@
                         </div>
                     </div>
                     <hr class="w-50">
+                    <div class="grid">
+                        <div class="row">
+                            <div class="col-md-10 green-icon">
+                                <span><i class="fas fa-comment-dots"></i><a href="{% url 'forum_comments' forum.id %}">Add Comment</a></span>
+                            </div>
+                            <div class="col-md-1 orange-icon">
+                                <span><a href=""><i class="fas fa-pause-circle"></i></a></span>
+                            </div>
+                            <div class="col-md-1 blue-icon">
+                                <span><a href=""><i class="fas fa-play-circle"></i></a></span>
+                            </div>
+                        </div>
+                    </div>
                 {% endfor %}
-            <div class="grid">
-                <div class="row">
-                    <div class="col-md-10 green-icon">
-                        <span><i class="fas fa-comment-dots"></i><a href="#">Add Comment</a></span>
-                    </div>
-                    <div class="col-md-1 orange-icon">
-                        <span><a href=""><i class="fas fa-pause-circle"></i></a></span>
-                    </div>
-                    <div class="col-md-1 blue-icon">
-                        <span><a href=""><i class="fas fa-play-circle"></i></a></span>
-                    </div>
-                </div>
-            </div>
+                {% block postload_js %}
+                    {{ block.super }}
+                {% endblock %}
         </div>
     </section>
     <section>
