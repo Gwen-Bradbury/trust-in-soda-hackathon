@@ -12,7 +12,7 @@
 </div>
 {% endblock %}
 
-{& block content &}
+{% block content %}
     <div class="contant-wrapper col-10 offset-1 col-md-8 offset-md-2 mt-3 mb-5 border border-2 text-center">
         <h1 class="text-uppercase mt-3">Edit Forum</h1>
         <section>
@@ -34,4 +34,10 @@
             </div>
         </section>
     </div>
+{% endblock %}
+
+{% block postload_js %}
+    {{ block.super }}
+        <!-- Current Image JS -->
+        {% include 'forum/includes/js/current_image_js.html' %}
 {% endblock %}

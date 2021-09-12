@@ -13,10 +13,11 @@ from .forms import CommentForm, AddForumForm
 
 def view_forum(request):
     """ Returns forum.html """
+    template = 'forum/forum.html'
     context = {
         'forum': Forum.objects.all()
     }
-    return render(request, 'blog/blog.html', context)
+    return render(request, template, context)
 
 
 @login_required
@@ -65,7 +66,7 @@ def edit_comment(request, comment_id):
             if comment_form.is_valid():
                 comment_form.save()
                 messages.success(request, 'Comment successfully updated')
-                return redirect(reverse('view_forum'))
+                return redirect(reverse('forum' ))
             else:
                 messages.error(request,
                                'Error - Please check form is valid and \
@@ -94,7 +95,7 @@ def delete_comment(request, comment_id):
         """ Delete Comment """
         comment.delete()
         messages.success(request, 'Comment deleted')
-        return redirect(reverse('view_forum'))
+        return redirect(reverse('forum'))
     else:
         messages.error(request, 'Sorry, only the comment author can do that')
         return redirect(reverse('home'))
@@ -123,7 +124,7 @@ def add_forum(request):
     else:
         add_forum_form = AddForumForm()
 
-    template = 'blog/add_forum.html'
+    template = 'forum/add_forum.html'
     context = {
         'add_forum_form': add_forum_form,
         'on_profile_page': True
@@ -145,7 +146,7 @@ def edit_forum(request, forum_id):
         add_forum_form = AddForumForm(request.POST, request.FILES, instance=forum)
         if add_forum_form.is_valid():
             add_forum_form.save()
-            messages.success(request, 'Post successfully updated')
+            messages.success(request, 'Forum successfully updated')
             return redirect(reverse('forum_comments', args=[forum.id]))
         else:
             messages.error(request,
@@ -154,7 +155,7 @@ def edit_forum(request, forum_id):
         add_forum_form = AddForumForm(instance=forum)
         messages.info(request, f'You are editing {forum.forum_name}')
 
-    template = 'blog/edit_post.html'
+    template = 'forum/edit_forum.html'
     context = {
         'add_forum_form': add_forum_form,
         'forum': forum,
@@ -174,4 +175,4 @@ def delete_forum(request, forum_id):
     forum = get_object_or_404(Forum, pk=forum_id)
     forum.delete()
     messages.success(request, 'Forum deleted')
-    return redirect(reverse('view_forum'))
+    return redirect(reverse('forum'))
