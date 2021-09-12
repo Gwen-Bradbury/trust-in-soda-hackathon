@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Quicksand:wght@300;400;500;700&display=swap');
+
+html {
+    height: 100%;
+}
+
 :root {
     --white: #FFFFFF;
     --black: #000000;
@@ -279,4 +284,29 @@ input[type="reset"]:hover {
     line-height: 70px;
     padding: 20px;
     background-color: var(--lapis-lazuli);
+}
+
+
+/* Landing Page Image and Text */
+.jumbotron-section {
+    background: url('/media/logo.jpg') no-repeat center center;
+    background-size: cover;
+    height: inherit;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+}
+
+.jumbotron-content {
+    background-color: #f1cc7ae8;
+    padding: 5px;
+    margin-bottom: 5rem;
+    max-height: 400px;
+    width: 450px;
+    box-shadow: 0px 3px 15px 10px rgba(0,0,0,0.42);
+    position: relative;
 }

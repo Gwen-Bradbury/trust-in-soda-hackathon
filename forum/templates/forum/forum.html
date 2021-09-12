@@ -1,277 +1,152 @@
-<!DOCTYPE html>
-<html lang="en">
+{% extends "base.html" %}
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Diverspect | An open workplace for all</title>
+{% load static %}
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+{% block page_header %}
+<!-- Push Content Down Page -->
+<div class="container header-container">
+    <div class="row">
+        <div class="col">
+        </div>
+    </div>
+</div>
+{% endblock %}
 
-    <link rel="stylesheet" type="text/css" href="./static/css/base.css">
-
-</head>
-
-<body>
-    <header>
-        <nav class="navbar">
-
-            <div>
-                <a id="link-home" href="index.html">
-                    <h1 id="logo"><img src="./media/logo.jpg" alt="Logo Diverspect"></h1>
-                </a>
+{% block content %}
+    <section>
+        <h2 class="title">Popular</h2>
+        <hr>
+        <div class="grid">
+            <div class="spaced-between-row">
+                <h2 class="subtitle">Forum Title</h2>
+                <span class="follow-icon"><a href=""><i class="fas fa-plus-circle"></i> Follow</a></span>
             </div>
-
-            <div class="search-box">
-                <input type="text" placeholder="Search" autocomplete="off" />
-                <button type="button">Go</button>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe voluptatibus iure
+                        consequuntur explicabo sed molestias consectetur quisquam laborum, eum natus, sunt aperiam
+                        ab dolores eos quibusdam tempore veniam vel architecto.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe voluptatibus iure
+                        consequuntur explicabo sed molestias consectetur quisquam laborum, eum natus, sunt aperiam
+                        ab dolores eos quibusdam tempore veniam vel architecto.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe voluptatibus iure
+                        consequuntur explicabo sed molestias consectetur quisquam laborum, eum natus, sunt aperiam
+                        ab dolores eos quibusdam tempore veniam vel architecto.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe voluptatibus iure
+                        consequuntur explicabo sed molestias consectetur quisquam laborum, eum natus, sunt aperiam
+                        ab dolores eos quibusdam tempore veniam vel architecto.
+                    </p>
+                </div>
             </div>
-
-            <ul id="menu">
-                <li><a href="#">Log In</a></li>
-                <li><a href="#">Sign in</a></li>
-                <li><a href="#"><i class="fas fa-question-circle"></i> Help</a></li>
-            </ul>
-
-        </nav>
-    </header>
-
-    <main>
-        <section>
-            <h2 class="title">Popular</h2>
-            <hr>
-
             <div class="grid">
-                <div class="spaced-between-row">
-                    <h2 class="subtitle">Forum Title</h2>
-                    <span class="follow-icon"><a href=""><i class="fas fa-plus-circle"></i> Follow</a></span>
-                </div>
-
                 <div class="row">
-                    <div class="col-lg-12">
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe voluptatibus iure
-                            consequuntur explicabo sed molestias consectetur quisquam laborum, eum natus, sunt aperiam
-                            ab dolores eos quibusdam tempore veniam vel architecto.
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe voluptatibus iure
-                            consequuntur explicabo sed molestias consectetur quisquam laborum, eum natus, sunt aperiam
-                            ab dolores eos quibusdam tempore veniam vel architecto.
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe voluptatibus iure
-                            consequuntur explicabo sed molestias consectetur quisquam laborum, eum natus, sunt aperiam
-                            ab dolores eos quibusdam tempore veniam vel architecto.
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe voluptatibus iure
-                            consequuntur explicabo sed molestias consectetur quisquam laborum, eum natus, sunt aperiam
-                            ab dolores eos quibusdam tempore veniam vel architecto.
-                        </p>
+                    <div class="col-md-10 green-icon">
+                        <span><i class="fas fa-comment-dots"></i><a href="#">Add Comment</a></span>
                     </div>
-
-                </div>
-
-                <div class="grid">
-                    <div class="row">
-                        <div class="col-md-10 green-icon">
-                            <span><i class="fas fa-comment-dots"></i><a href="#">Add Comment</a></span>
-                        </div>
-                        <div class="col-md-1 orange-icon">
-                            <span><a href=""><i class="fas fa-pause-circle"></i></a></span>
-                        </div>
-                        <div class="col-md-1 blue-icon">
-                            <span><a href=""><i class="fas fa-play-circle"></i></a></span>
-                        </div>
+                    <div class="col-md-1 orange-icon">
+                        <span><a href=""><i class="fas fa-pause-circle"></i></a></span>
                     </div>
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <h2 class="title">All Forums</h2>
-            <hr>
-
-            <div class="grid">
-                <div class="spaced-between-row">
-                    <h2 class="subtitle">Forum Title</h2>
-                    <span class="follow-icon"><a href=""><i class="fas fa-plus-circle"></i> Follow</a></span>
-                </div>
-
-                <div class="row">
-                    <div class="col-lg-12">
-                        <img class="image" src="./media/unity.jpg" alt="">
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe voluptatibus iure
-                            consequuntur explicabo sed molestias consectetur quisquam laborum, eum natus, sunt aperiam
-                            ab dolores eos quibusdam tempore veniam vel architecto.
-                        </p>
-                    </div>
-
-                </div>
-
-                <div class="grid">
-                    <div class="row">
-                        <div class="col-md-10 green-icon">
-                            <span><i class="fas fa-comment-dots"></i><a href="#">Add Comment</a></span>
-                        </div>
-                        <div class="col-md-1 orange-icon">
-                            <span><a href=""><i class="fas fa-pause-circle"></i></a></span>
-                        </div>
-                        <div class="col-md-1 blue-icon">
-                            <span><a href=""><i class="fas fa-play-circle"></i></a></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="grid">
-                <div class="spaced-between-row">
-                    <h2 class="subtitle">Forum Title</h2>
-                    <span class="follow-icon"><a href=""><i class="fas fa-plus-circle"></i> Follow</a></span>
-                </div>
-
-                <div class="row">
-                    <div class="col-lg-12">
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe voluptatibus iure
-                            consequuntur explicabo sed molestias consectetur quisquam laborum, eum natus, sunt aperiam
-                            ab dolores eos quibusdam tempore veniam vel architecto.
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe voluptatibus iure
-                            consequuntur explicabo sed molestias consectetur quisquam laborum, eum natus, sunt aperiam
-                            ab dolores eos quibusdam tempore veniam vel architecto.
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe voluptatibus iure
-                            consequuntur explicabo sed molestias consectetur quisquam laborum, eum natus, sunt aperiam
-                            ab dolores eos quibusdam tempore veniam vel architecto.
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe voluptatibus iure
-                            consequuntur explicabo sed molestias consectetur quisquam laborum, eum natus, sunt aperiam
-                            ab dolores eos quibusdam tempore veniam vel architecto.
-                        </p>
-                    </div>
-
-                </div>
-
-                <div class="grid">
-                    <div class="row">
-                        <div class="col-md-10 green-icon">
-                            <span><i class="fas fa-comment-dots"></i><a href="#">Add Comment</a></span>
-                        </div>
-                        <div class="col-md-1 orange-icon">
-                            <span><a href=""><i class="fas fa-pause-circle"></i></a></span>
-                        </div>
-                        <div class="col-md-1 blue-icon">
-                            <span><a href=""><i class="fas fa-play-circle"></i></a></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <h2 class="title">Followed Forums</h2>
-            <hr>
-
-            <div class="grid">
-                <div class="spaced-between-row">
-                    <h2 class="subtitle">Forum Title</h2>
-                    <span class="follow-icon"><a href=""><i class="fas fa-plus-circle"></i> Follow</a></span>
-                </div>
-
-                <div class="row">
-                    <div class="col-lg-12">
-                        <img class="image" src="./media/equality.jpg" alt="">
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe voluptatibus iure
-                            consequuntur explicabo sed molestias consectetur quisquam laborum, eum natus, sunt aperiam
-                            ab dolores eos quibusdam tempore veniam vel architecto.
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe voluptatibus iure
-                            consequuntur explicabo sed molestias consectetur quisquam laborum, eum natus, sunt aperiam
-                            ab dolores eos quibusdam tempore veniam vel architecto.
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe voluptatibus iure
-                            consequuntur explicabo sed molestias consectetur quisquam laborum, eum natus, sunt aperiam
-                            ab dolores eos quibusdam tempore veniam vel architecto.
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe voluptatibus iure
-                            consequuntur explicabo sed molestias consectetur quisquam laborum, eum natus, sunt aperiam
-                            ab dolores eos quibusdam tempore veniam vel architecto.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="grid">
-                    <div class="row">
-                        <div class="col-md-10 green-icon">
-                            <span><i class="fas fa-comment-dots"></i><a href="#">Add Comment</a></span>
-                        </div>
-                        <div class="col-md-1 orange-icon">
-                            <span><a href=""><i class="fas fa-pause-circle"></i></a></span>
-                        </div>
-                        <div class="col-md-1 blue-icon">
-                            <span><a href=""><i class="fas fa-play-circle"></i></a></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="grid">
-                <div class="spaced-between-row">
-                    <h2 class="subtitle">Forum Title</h2>
-                    <span class="follow-icon"><a href=""><i class="fas fa-plus-circle"></i> Follow</a></span>
-                </div>
-
-                <div class="row">
-                    <div class="col-lg-12">
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe voluptatibus iure
-                            consequuntur explicabo sed molestias consectetur quisquam laborum, eum natus, sunt aperiam
-                            ab dolores eos quibusdam tempore veniam vel architecto.
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe voluptatibus iure
-                            consequuntur explicabo sed molestias consectetur quisquam laborum, eum natus, sunt aperiam
-                            ab dolores eos quibusdam tempore veniam vel architecto.
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe voluptatibus iure
-                            consequuntur explicabo sed molestias consectetur quisquam laborum, eum natus, sunt aperiam
-                            ab dolores eos quibusdam tempore veniam vel architecto.
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe voluptatibus iure
-                            consequuntur explicabo sed molestias consectetur quisquam laborum, eum natus, sunt aperiam
-                            ab dolores eos quibusdam tempore veniam vel architecto.
-                        </p>
-                    </div>
-
-                </div>
-
-                <div class="grid">
-                    <div class="row">
-                        <div class="col-md-10 green-icon">
-                            <span><i class="fas fa-comment-dots"></i><a href="#">Add Comment</a></span>
-                        </div>
-                        <div class="col-md-1 orange-icon">
-                            <span><a href=""><i class="fas fa-pause-circle"></i></a></span>
-                        </div>
-                        <div class="col-md-1 blue-icon">
-                            <span><a href=""><i class="fas fa-play-circle"></i></a></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <div id="footer">
-            <div class="container">
-                <div class="row justify-content-between">
-                    <div class="col-md-10">
-                        <span>Diverspect&copy; Copyright 2021. All rights reserved.</span>
-                    </div>
-                    <div class="col-md-2">
-                        <a class="back-to-top" href="#"><i class="fas fa-arrow-circle-up"></i> back to top</a>
+                    <div class="col-md-1 blue-icon">
+                        <span><a href=""><i class="fas fa-play-circle"></i></a></span>
                     </div>
                 </div>
             </div>
         </div>
-    </footer>
-</body>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-    crossorigin="anonymous"></script>
-<script src="https://kit.fontawesome.com/2564f6ed16.js" crossorigin="anonymous"></script>
-
-
-</html>
+    </section>
+    <section>
+        <h2 class="title">All Forums</h2>
+        <hr>
+        <div class="grid">
+            <div class="spaced-between-row">
+                {% for forum in forum %}
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-4 offset-lg-2">
+                            <!-- Get 'Forum Image' or 'No Image' Image -->
+                            <div class="my-5 pl-3 pr-3">
+                                {% if forum.image %}
+                                    <a href="{% url 'forum_comments' forum.id %}">
+                                        <img class="card-img-top img-fluid blog border-blue" src="{{ forum.image.url }}" alt="{{ forum.forum_name }}">
+                                    </a>
+                                {% else %}
+                                    <a href="{% url 'forum_comments' forum.id %}">
+                                        <img class="card-img-top img-fluid blog border-blue" src="{{ MEDIA_URL }}noimage.png" alt="{{ forum.forum_name }}">
+                                    </a>
+                                {% endif %}
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="mb-5 mt-md-5 pl-3 pr-3">
+                                <!-- Get Forum name -->
+                                <a href="{% url 'forum_comments' forum.id %}" class="name-link">
+                                    <p class="lead mb-3 font-weight-bold">{{ forum.forum_name }}</p>
+                                </a>
+                                <hr>
+                                <!-- Get Forum Creator -->
+                                <p class="mb-0 text-left">{{ forum.forum_creator }}</p>
+                                <small class="text-muted">{{ forum.forum_date_created|date:'F d, Y' }}</small>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="w-50">
+                    <div class="grid">
+                        <div class="row">
+                            <div class="col-md-10 green-icon">
+                                <span><i class="fas fa-comment-dots"></i><a href="{% url 'forum_comments' forum.id %}">Add Comment</a></span>
+                            </div>
+                            <div class="col-md-1 orange-icon">
+                                <span><a href=""><i class="fas fa-pause-circle"></i></a></span>
+                            </div>
+                            <div class="col-md-1 blue-icon">
+                                <span><a href=""><i class="fas fa-play-circle"></i></a></span>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+                {% block postload_js %}
+                    {{ block.super }}
+                {% endblock %}
+        </div>
+    </section>
+    <section>
+        <h2 class="title">Followed Forums</h2>
+        <hr>
+        <div class="grid">
+            <div class="spaced-between-row">
+                <h2 class="subtitle">Forum Title</h2>
+                <span class="follow-icon"><a href=""><i class="fas fa-plus-circle"></i> Follow</a></span>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="image" src="./media/equality.jpg" alt="">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe voluptatibus iure
+                        consequuntur explicabo sed molestias consectetur quisquam laborum, eum natus, sunt aperiam
+                        ab dolores eos quibusdam tempore veniam vel architecto.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe voluptatibus iure
+                        consequuntur explicabo sed molestias consectetur quisquam laborum, eum natus, sunt aperiam
+                        ab dolores eos quibusdam tempore veniam vel architecto.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe voluptatibus iure
+                        consequuntur explicabo sed molestias consectetur quisquam laborum, eum natus, sunt aperiam
+                        ab dolores eos quibusdam tempore veniam vel architecto.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe voluptatibus iure
+                        consequuntur explicabo sed molestias consectetur quisquam laborum, eum natus, sunt aperiam
+                        ab dolores eos quibusdam tempore veniam vel architecto.
+                    </p>
+                </div>
+            </div>
+            <div class="grid">
+                <div class="row">
+                    <div class="col-md-10 green-icon">
+                        <span><i class="fas fa-comment-dots"></i><a href="#">Add Comment</a></span>
+                    </div>
+                    <div class="col-md-1 orange-icon">
+                        <span><a href=""><i class="fas fa-pause-circle"></i></a></span>
+                    </div>
+                    <div class="col-md-1 blue-icon">
+                        <span><a href=""><i class="fas fa-play-circle"></i></a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}

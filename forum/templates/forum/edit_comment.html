@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block page_header %}
+<!-- Push Content Down Page -->
+<div class="container header-container">
+    <div class="row">
+        <div class="col">
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+    <div class="contant-wrapper col-10 offset-1 col-md-8 offset-md-2 mt-3 mb-5 border border-2 text-center">
+        <h1 class="text-uppercase mt-3">Edit Comment</h1>
+        <section>
+            <div class="container mb-3">
+                <p>Your Comments</p>
+                <div class="form-floating">
+                    <form method="POST">
+                        {% csrf_token %}
+                        <fieldset class="form-group">
+                            {{ comment_form|crispy }}
+                        </fieldset>
+                        <div class="text-right">
+                            <a class="btn rounded-5 link-button" href="{% url 'forum' %}">Cancel</a>
+                            <button class="btn rounded-5 post-comment continue-button" type="submit">Edit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+{% endblock %}
+
+{% block postload_js %}
+    {{ block.super }}
+{% endblock %}
