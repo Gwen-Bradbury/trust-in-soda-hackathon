@@ -1,10 +1,62 @@
 # Diverspect
 
+## Table of Contents
+- [Diverspect](#diverspect)
+	- [Table of Contents](#table-of-contents)
+	- [Introduction](#introduction)
+	- [UX](#ux)
+		- [**Overview**](#overview)
+		- [**Why Diverspect?**](#why-diverspect)
+		- [Goals](#goals)
+		- [Wireframes -](#wireframes--)
+		- [Design](#design)
+			- [Design Process](#design-process)
+		- [Colour Pallette](#colour-pallette)
+		- [Font](#font)
+	- [User Stories](#user-stories)
+		- [Target Audience](#target-audience)
+		- [As a Site User I want to...](#as-a-site-user-i-want-to)
+		- [As a Site Superuser](#as-a-site-superuser)
+		- [As a Developer](#as-a-developer)
+	- [Features](#features)
+		- [Existing Features](#existing-features)
+		- [Future Features](#future-features)
+			- [Features Visiable across All Pages](#features-visiable-across-all-pages)
+			- [Features Visiable on each page](#features-visiable-on-each-page)
+		- [Features left to Implement](#features-left-to-implement)
+		- [Bugs and Fixes Implemented after Testing](#bugs-and-fixes-implemented-after-testing)
+	- [Technologies Used](#technologies-used)
+		- [Backend Technologies](#backend-technologies)
+		- [Languages](#languages)
+		- [Libraries](#libraries)
+		- [API's](#apis)
+		- [Databases](#databases)
+		- [Tools](#tools)
+	- [Testing](#testing)
+		- [Validation of Code Testing](#validation-of-code-testing)
+			- [HTML](#html)
+			- [CSS](#css)
+			- [Javascript](#javascript)
+			- [Python](#python)
+	- [Deployment](#deployment)
+		- [Used Commands during Deployment](#used-commands-during-deployment)
+		- [Hosting on Heroku](#hosting-on-heroku)
+		- [Forking the GitHub Repository](#forking-the-github-repository)
+		- [Running this Project Locally](#running-this-project-locally)
+	- [Credits](#credits)
+		- [Content](#content)
+		- [Media](#media)
+		- [Acknowledgements](#acknowledgements)
+	- [Disclaimer](#disclaimer)
+			- [This website was made for educational purposes only](#this-website-was-made-for-educational-purposes-only)
+
 ## Introduction
 
 This site was created as part of a hackathon programme organised by Code Institute in collaboration with Trust in SODA.
 
 The goal of this site is to give users the ability to talk about their troubles with inclusivity in the workplace, online and in their general lives. This will hopefully open up a healthy discussion between everyone and open up peoples eyes about how people with disabilities, or even just other inclusivity problems. Other inclusivity problems could be mothers returning to work after having a baby. They may be anxious to return to the work environment. And hopefully this site will give everyone the chance to talk about their respective problems and open up a discussion between everyone and businesses.
+
+-----
 
 ## UX
 
@@ -21,7 +73,6 @@ As a site owner, we would like to provide a safe online space for users to share
 
 We aim to highlight the issues expressed on our site to companies. We hope that companies then make better educated decisions to improve their inclusive work space.
 
-
 As a site owner, we would like to provide a safe online space for users to share information and express their voices relating the challenges they encounter in their workplaces.  
 
 We aim to highlight the issues expressed on our site to companies. We hope that companies then make better educated decisions to improve their inclusive work space.
@@ -32,13 +83,13 @@ We have produced a mock up of the websites pages.
 
 Wireframes created can be found [HERE](./WIREFRAMES.md)
 
+-----
 
+### Design
 
-### Design -
+#### Design Process
 
-#### Design Process -
-
-1. _Strategy Plane_ -
+1. _Strategy Plane_
    
    **User Stories**
    This site is created based on the following user’s expectations in mind.
@@ -73,28 +124,75 @@ Wireframes created can be found [HERE](./WIREFRAMES.md)
 	  * To promote diversity and inclusion
 	  
 
+2. _Scope Plane_
 
-2. _Scope Plane_ -
+	**Features**
+	
+	 * The site should be responsive and user-friendly on all browsers and devices.
+	 * Intuitive and user-friendly site that any people can gain and share experiences.
+	 * intuitive and user-friendly layout.
+	 * The purpose of the site should be clear immediately.
+	 * Users should be able to easily register/login/logout.
+	 * Users should be able to add/edit/remove comments in the forum page.
 
-3. _Structure Plane_ -
+3. _Structure Plane_
 
-- _Database Structure_ - 
+	**User Story:**
 
-4. _Skeleton Plane_ -
+	> - As a first time visitor to the site I would like to immediately understand it's purpose.
 
-5. _Surface Plane_ -
+	**Acceptance Criteria:**
 
-### Colour Pallette -
+	* The home page has a heading that discribes the purpose of the site and who it is for.
+
+	**Implementation:**
+
+	The home page will display a heading that clearly shows the site purpose.
+
+	**Result:** User Story accomplished.
+
+	**User Stories:**
+
+	> - I would like to be able to register on the site.
+	> - Upon the registration, I would like to receive a confirmation email.
+	> - I would like to be able to login/logout of the site.
+
+	**Acceptance Criteria:**
+
+	* User can access a registration form page and enter their details.
+	* User receives an email confirming their sign up.
+	* User can login of the site.
+	* User can logout of the site.
+
+	**Implementation:**
+
+	There is an icon in the top right corner of the page where the user can register/login for unauthenticate users and a logout icon is displayed for authenticated users. Furthermore, users will receive an email after registration.
+
+	**Result:** User Story accomplished.
+
+- _Database Structure_ 
+
+1. _Skeleton Plane_
+
+2. _Surface Plane_
+
+[Back to top ⇧](#diverspect)
+
+-----
+
+### Colour Pallette
 
 ![Colour Palette](documents/colour_palette/hackathon_colors.png)
 
 For the colours we used [Inclusive Color Palettes for the Web](https://medium.com/cafe-pixo/inclusive-color-palettes-for-the-web-bbfe8cf2410e). This site gave us several colours and colour palettes to look at which are inclusive for all users. These colours are user friendly for visually impaired and do not ruin the experience for users that are not visually impaired
 
-### Font - Quicksand & Montserrat
+### Font
+
+Google Fonts was used to import the fonts Quicksand & Montserrat into the base.css file. These fonts were used throughout the site.
 
 ## User Stories
 
-### Target Audience -
+### Target Audience
 1. People with disabilities wishing to share their experiences of how their disabilities impact their online usage. Such as sites catering to their disabilities, or how workplaces help with their disabilities
 1. Helping the general public share their everyday experiences of how their life is impacted by the lack of inclusivity in the workplace and online.
 
@@ -106,9 +204,13 @@ For the colours we used [Inclusive Color Palettes for the Web](https://medium.co
 1. Be able to edit any of the posts or comments that I leave on the site.
 1. Be able to delete any of the posts or comments that I leave on the site.
 
-### As a Site Superuser -
+### As a Site Superuser
 
-### As a Developer -
+### As a Developer
+
+[Back to top ⇧](#diverspect)
+
+-----
 
 ## Features
 
@@ -116,7 +218,7 @@ For the colours we used [Inclusive Color Palettes for the Web](https://medium.co
 
 -   Interactive elements.
 
-### Existing Features - 
+### Existing Features 
 
 1. Sign Up to open an account
 1. Login for users who already have an account
@@ -125,25 +227,27 @@ For the colours we used [Inclusive Color Palettes for the Web](https://medium.co
 1. Individual users can create their own posts to talk about their own issues
 1. Individual users can also edit and delete their own posts and comments 
 
-### Future Features -
+### Future Features
 
 1. Text-to-Speech API. This will help many users who may struggle with reading on an electronic devices or for visually impaired users. This feature will read out what the other user has posted.
 1. Text Enlarger. This will enlarge text for users who may struggle with reading on electronic devices and are unable to use the text-to-speech feature. Users who having hearing problems and having poor vision can benefit from this feature as the text will become much larger.
 1. Change Backgrounds. This option will allow users with dyslexia to pick a background colour that is more suitable for them. 
 
+#### Features Visiable across All Pages
 
-#### Features Visiable across All Pages -
+#### Features Visiable on each page
 
+### Features left to Implement
 
-#### Features Visiable on each page -
+### Bugs and Fixes Implemented after Testing
 
-### Features left to Implement -
+[Back to top ⇧](#diverspect)
 
-### Bugs and Fixes Implemented after Testing -
+-----
 
 ## Technologies Used
 
-### Backend Technologies -
+### Backend Technologies
 
 1. **Gunicorn 20.0.4:** Gunicorn ‘Green Unicorn’ is a Python WSGI HTTP Server for UNIX. The Gunicorn server is broadly compatible with 
 various web frameworks, simply implemented, light on server resources, and fairly speedy. https://docs.gunicorn.org/en/stable/
@@ -158,7 +262,9 @@ the complete implementation of the Python DB API 2.0 specification and the threa
 4. **boto3 1.14.5:** Boto is the Amazon Web Services (AWS) SDK for Python. It enables Python developers to create, configure, and manage AWS 
 services, such as EC2 and S3. https://boto3.amazonaws.com/v1/documentation/api/latest/index.html
 
-### Languages -
+-----
+
+### Languages
 
 1. **HTML5, or Hyper Text Markup Language:** Used to construct the page within this app -   
 https://developer.mozilla.org/en-US/docs/Web/HTML
@@ -176,19 +282,23 @@ https://www.w3.org/Style/CSS/Overview.en.html
 
 7. **Bson and Json:**  A computer data interchange format - https://www.mongodb.com/json-and-bson
 
-### Libraries -
+-----
 
-### API's - 
+### Libraries
+
+### API's
 
 1. **Django:** A web framework - https://www.djangoproject.com/
 
-### Databases -
+### Databases
 
 1. **Postgres:** Open Source Database - https://www.postgresql.org/
 
 2. **sqLite3:** SQL Database Engine - https://www.sqlite.org/
 
-### Tools -
+-----
+
+### Tools
 
 1. **Gitpod:** An online IDE also used for creating & saving code that runs in a browser, it does not have to be installed on your PC - 
 https://www.gitpod.io/
@@ -213,25 +323,29 @@ https://www.gitpod.io/
 
 10. **Free Formatter:** A HTML formatter that Formatted my HTML 2 spaces per indent - https://www.freeformatter.com/
 
+[Back to top ⇧](#diverspect)
+
+-----
+
 ## Testing
 
 We carried out substantial testing on the websites pages and links. You can see the results of the tests [here](./TESTING.md)
 
-### Validation of Code Testing -
+### Validation of Code Testing
 
-#### HTML - 
+#### HTML
 
 All Pages tested using [W3C](https://validator.w3.org/nu/) HTML Validator.
 
-#### CSS -
+#### CSS
 
 All Pages tested using [W3C](https://jigsaw.w3.org/css-validator/) CSS Validator.
 
-#### Javascript -
+#### Javascript
 
 All JS and JQuery tested using [JSHint](https://jshint.com/) Javascript Validator.
 
-#### Python -
+#### Python
 
 All Python tested using [PEP8](http://pep8online.com/) Python Validator.
 
@@ -239,11 +353,13 @@ All Python tested using [PEP8](http://pep8online.com/) Python Validator.
 Line to long errors within the code generated by Django and code from the migrations were left as developers shouldn't need to touch them.
 Errors left within our own code are - 
 
+-----
+
 ## Deployment
 
 This website was developed in Gitpod and pushed to the remote repositories, GitHub and Heroku. The live page is hosted on Heroku.
 
-### Used Commands during Deployment -
+### Used Commands during Deployment
 
 1. git add . - To add files to staging area.
 
@@ -265,7 +381,7 @@ This website was developed in Gitpod and pushed to the remote repositories, GitH
 
 10. python3 manage.py loaddata - Loads the dumps into Postgres.
 
-### Hosting on Heroku -
+### Hosting on Heroku
 
 In order to successfully deploy the app, the following steps were taken:
 
@@ -325,7 +441,9 @@ In order to successfully deploy the app, the following steps were taken:
 
 23.	Commit/push these changes to github.
 
-### Forking the GitHub Repository -
+-----
+
+### Forking the GitHub Repository
 
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original 
 repository by using the following steps...
@@ -336,7 +454,7 @@ repository by using the following steps...
 
 3. You should now have a copy of the original repository in your GitHub account.
 
-### Running this Project Locally -
+### Running this Project Locally
 
 You will need to install the following to run this locally:
 
@@ -358,9 +476,13 @@ To continue with cloning, you would;
 
 For more information about the above process; https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository
 
+[Back to top ⇧](#diverspect)
+
+-----
+
 ## Credits
 
-### Content -
+### Content
 
 1. Colour Scheme
 
@@ -368,7 +490,7 @@ For more information about the above process; https://help.github.com/en/github/
 
 3. Data Schema
 
-### Media -
+### Media
 
 1. Table of contents
 
@@ -376,7 +498,7 @@ For more information about the above process; https://help.github.com/en/github/
 
 - [Code-Institute](https://codeinstitute.net/)
 
-### Acknowledgements -
+### Acknowledgements
 
 ## Disclaimer
 
