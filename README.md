@@ -30,16 +30,9 @@ We aim to highlight the issues expressed on our site to companies. We hope that 
 ### Wireframes -
 We have produced a mock up of the websites pages.
 
-![Account Page Mobile](documents/wireframes/account_page_mobile.png)
-![Account Page Desktop](documents/wireframes/acount_page_desktop.png)
-![Edit Comment Page Desktop](documents/wireframes/edit_comment_page_desktop.png)
-![Edit Comment Page Mobile](documents/wireframes/edit_comment_page_mobile.png)
-![Forum Page Desktop](documents/wireframes/forum_page_desktop.png)
-![Forum Page Mobile](documents/wireframes/forum_page_mobile.png)
-![Home Page Desktop](documents/wireframes/home_page_desktop.png)
-![Home Page Mobile](documents/wireframes/home_page_mobile.png)
-![Login/Signup Page Desktop](documents/wireframes/login_signup_page_desktop.png)
-![Login/Signup Page Mobile](documents/wireframes/login_signup_page_mobile.png)
+Wireframes created can be found [HERE](./WIREFRAMES.md)
+
+
 
 ### Design -
 
