@@ -4,9 +4,7 @@
 
 This site was created as part of a hackathon programme organised by Code Institute in collaboration with Trust in SODA.
 
-![Apple Devices Picture](./documentation/responsive.png)
-
-A link to our website can be found [here]()
+The goal of this site is to give users the ability to talk about their troubles with inclusivity in the workplace, online and in their general lives. This will hopefully open up a healthy discussion between everyone and open up peoples eyes about how people with disabilities, or even just other inclusivity problems. Other inclusivity problems could be mothers returning to work after having a baby. They may be anxious to return to the work environment. And hopefully this site will give everyone the chance to talk about their respective problems and open up a discussion between everyone and businesses.
 
 ## UX
 
@@ -25,7 +23,18 @@ We aim to highlight the issues expressed on our site to companies. We hope that 
 
 
 ### Wireframes -
-We have produced a mock up of the websites pages. You can view them [here](./WIREFRAMES.md)
+We have produced a mock up of the websites pages.
+
+![Account Page Mobile](documents/wireframes/account_page_mobile.png)
+![Account Page Desktop](documents/wireframes/acount_page_desktop.png)
+![Edit Comment Page Desktop](documents/wireframes/edit_comment_page_desktop.png)
+![Edit Comment Page Mobile](documents/wireframes/edit_comment_page_mobile.png)
+![Forum Page Desktop](documents/wireframes/forum_page_desktop.png)
+![Forum Page Mobile](documents/wireframes/forum_page_mobile.png)
+![Home Page Desktop](documents/wireframes/home_page_desktop.png)
+![Home Page Mobile](documents/wireframes/home_page_mobile.png)
+![Login/Signup Page Desktop](documents/wireframes/login_signup_page_desktop.png)
+![Login/Signup Page Mobile](documents/wireframes/login_signup_page_mobile.png)
 
 ### Design -
 
@@ -75,17 +84,27 @@ We have produced a mock up of the websites pages. You can view them [here](./WIR
 
 5. _Surface Plane_ -
 
-#### Colour Pallette -
+### Colour Pallette -
 
-Blue/ Yellow/ Green / Red
+![Colour Palette](documents/colour_palette/hackathon_colors.png)
 
-#### Font -
+For the colours we used [Inclusive Color Palettes for the Web](https://medium.com/cafe-pixo/inclusive-color-palettes-for-the-web-bbfe8cf2410e). This site gave us several colours and colour palettes to look at which are inclusive for all users. These colours are user friendly for visually impaired and do not ruin the experience for users that are not visually impaired
+
+### Font - Quicksand & Montserrat
 
 ## User Stories
 
 ### Target Audience -
+1. People with disabilities wishing to share their experiences of how their disabilities impact their online usage. Such as sites catering to their disabilities, or how workplaces help with their disabilities
+1. Helping the general public share their everyday experiences of how their life is impacted by the lack of inclusivity in the workplace and online.
 
-### As a Site User -
+### As a Site User I want to...
+
+1. Be able to leave a comment on someone elses post, to help share my thoughts on the post and maybe offer some advice to the other user
+1. Create my own account that stores my information so that I am able to make my own posts and leave comments on other users posts
+1. Be able to browse all the posts from other users
+1. Be able to edit any of the posts or comments that I leave on the site.
+1. Be able to delete any of the posts or comments that I leave on the site.
 
 ### As a Site Superuser -
 
@@ -99,7 +118,22 @@ Blue/ Yellow/ Green / Red
 
 ### Existing Features - 
 
+1. Sign Up to open an account
+1. Login for users who already have an account
+1. View and edit account details
+1. View all other users posts and comments on the home page
+1. Individual users can create their own posts to talk about their own issues
+1. Individual users can also edit and delete their own posts and comments 
+
+### Future Features -
+
+1. Text-to-Speech API. This will help many users who may struggle with reading on an electronic devices or for visually impaired users. This feature will read out what the other user has posted.
+1. Text Enlarger. This will enlarge text for users who may struggle with reading on electronic devices and are unable to use the text-to-speech feature. Users who having hearing problems and having poor vision can benefit from this feature as the text will become much larger.
+1. Change Backgrounds. This option will allow users with dyslexia to pick a background colour that is more suitable for them. 
+
+
 #### Features Visiable across All Pages -
+
 
 #### Features Visiable on each page -
 
