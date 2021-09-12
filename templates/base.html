@@ -77,24 +77,45 @@
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <nav class="navbar navbar-expand-lg navbar-light w-100">
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
                         {% include 'includes/mobile_top_header.html' %}
                         {% include 'includes/main_nav.html' %}
                     </nav>
                 </nav>
             </div>
         </header>
-        
+
         {% block page_header %}
         {% endblock %}
 
         {% block content %}
         {% endblock %}
+        
+        <footer>
+            <div class="container-fluid text-center" id="footer">
+                <div class="row">
+                    <div class="col">
+                        <h1 class="footer-headline">Contributors</h1>
+                        <h2>Follow us on GitHub!</h2>
+                        <!-- Contributors Github links -->
+                        <ul class="github-links">
+                            <li><a href="https://github.com/Gwen-Bradbury" target="_blank" rel="noopener noreferrer" aria-label="Gwen avatar"><img
+                                        src="media/gwenavatar.png" alt="contributor avatar"></a></li>
+                            <li><a href="https://github.com/mwmlln" target="_blank" rel="noopener noreferrer" aria-label="Miwa avatar"><img
+                                        src="media/miwaavatar.png" alt="contributor avatar"></a></li>
+                            <li><a href="https://github.com/elerel" target="_blank" rel="noopener noreferrer" aria-label="eleanor avatar"><img
+                                        src="media/eleanoravatar.png" alt="contributor avatar"></a></li>
+                            <li><a href="https://github.com/kylelawrencedev" target="_blank" rel="noopener noreferrer" aria-label="kyle avatar"><img
+                                        src="media/kyleavatar.png" alt="contributor avatar"></a></li>
+                            <li><a href="https://github.com/emidiovaleretto" target="_blank" rel="noopener noreferrer" aria-label="emidio avatar"><img
+                                        src="media/emidioavatar.png" alt="contributor avatar"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
         {% block postload_js %}
         {% endblock %} 
+        
     </body>
 </html>
