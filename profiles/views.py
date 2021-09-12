@@ -15,4 +15,4 @@ def profile(request):
         'profile': profile
     }
 
-    return render(request, context, template)
+    return render(request, template, context)
