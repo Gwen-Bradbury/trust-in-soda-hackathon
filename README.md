@@ -22,6 +22,11 @@ As a site owner, we would like to provide a safe online space for users to share
 We aim to highlight the issues expressed on our site to companies. We hope that companies then make better educated decisions to improve their inclusive work space.
 
 
+As a site owner, we would like to provide a safe online space for users to share information and express their voices relating the challenges they encounter in their workplaces.  
+
+We aim to highlight the issues expressed on our site to companies. We hope that companies then make better educated decisions to improve their inclusive work space.
+
+
 ### Wireframes -
 We have produced a mock up of the websites pages.
 
@@ -71,6 +76,8 @@ We have produced a mock up of the websites pages.
 	  * To provide safe and friendly site that anyone can gain and share information in order to tackle their everyday challenge at their workplace
 	  * To promote diversity and inclusion
 	  * To promote awareness of everyday accessibility issues in the workplace
+	  * To provide safe and friendly site that any people can gain and share information in order to tackle their everyday challenge at their workplace
+	  * To promote diversity and inclusion
 	  
 
 
