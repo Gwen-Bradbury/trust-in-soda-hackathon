@@ -32,16 +32,22 @@ body {
 p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
+    font-size: 12px;
 }
 
 li {
     list-style-type: none;
 }
 
+.nav-links li>a:hover {
+    color: var(--tart-orange) !important;
+}
+
 a:link, a:visited {
     text-decoration: none;
     color: var(--black);
 }
+
 
 #logo img {
     width: 150px;
@@ -338,6 +344,7 @@ header {
 /* Landing Page Image and Text */
 .jumbotron-section {
     background-image: url('/media/homepage.jpg');
+    background-position: center;
     opacity: .8;
     background-size: cover;
     height: inherit;
@@ -401,6 +408,7 @@ header {
 }
 
 .allauth-form-inner-content input {
+    margin-top: 1rem;
     border-color: #b9b6b6;
     border-radius: 5px;
 }
