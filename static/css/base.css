@@ -101,7 +101,7 @@ a:link, a:visited {
 
 .title {
     text-align: center;
-    padding: 50px 0 5px;
+    padding: 30px 0 5px;
 }
 
 .title {
@@ -318,20 +318,20 @@ header {
 
 /* Landing Page Image and Text */
 .jumbotron-section {
-    background-color: rgb(211, 32, 32);
+    background-image: url('/media/homepage.jpg');
+    opacity: .8;
     background-size: cover;
     height: inherit;
     width: 100%;
-
+    top: 0px;
     display: flex;
     align-items: center;
     justify-content: center;
-
     position: fixed;
 }
 
 .jumbotron-content {
-    background-color: #fff0;
+    background-color: rgb(175, 25, 25);
     padding: 5px;
     margin-bottom: 5rem;
     max-height: 400px;
@@ -340,11 +340,16 @@ header {
     position: relative;
 }
 
+.forum-btn {
+    background-color: #235FA4;
+}
+
 /* Footer CSS */
 
 .github-links li {
     display: inline;
     list-style: none;
+    
 }
 
 .github-links {
@@ -357,11 +362,6 @@ header {
     font-size: 150%;
     padding-right: 2%;
     padding-left: 2%;
-}
-
-.github-links img {
-    height: 50px;
-    width: 50px;
 }
 
 /* Background Image Overlay */
@@ -418,6 +418,18 @@ header {
 
     /* Bootstrap Button Transitions */
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+/* Back To Top Button */
+.to-top-button {
+    height: 42px;
+    width: 42px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+.to-top-link {
+    color: #DC2F02 !important;
 }
 
 /* -------------------------------- Media Queries */
