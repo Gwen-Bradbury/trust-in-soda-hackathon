@@ -172,23 +172,54 @@ Wireframes created can be found [HERE](./WIREFRAMES.md)
 
 - _Database Structure_ 
 
-4. _Skeleton Plane_ - 
+4. _Skeleton Plane_
 
-5. _Surface Plane_ -
+	**Navigation:** Browsing
+
+	* Click on the profile icon to navigate to their account
+	* There will be a back to top button to help users navigate to the top of the page with a single click
+
+	**Navigation:** Searching
+
+	* Users can use search through all the forms by just typing in some keywords. An example would be the user wanting to find a forum that talked about blindess. All the user needs to do is search terms such as, "blind", "blindess", "visually impaired" etc.
+
+	**Features**
+
+	*   Responsive on all device sizes.
+
+	*   Interactive elements.
+
+	**Existing Features** 
+
+	* Sign Up to open an account
+	* Login for users who already have an account
+	* View and edit account details
+	* View all other users posts and comments on the home page
+	* Individual users can create their own posts to talk about their own issues
+	* Individual users can also edit and delete their own posts and comments 
+
+	**Future Features**
+
+	* Text-to-Speech API. This will help many users who may struggle with reading on an electronic devices or for visually impaired users. This feature will read out what the other user has posted.
+	* Text Enlarger. This will enlarge text for users who may struggle with reading on electronic devices and are unable to use the text-to-speech feature. Users who having hearing problems and having poor vision can benefit from this feature as the text will become much larger.
+	* Change Backgrounds. This option will allow users with dyslexia to pick a background colour that is more suitable for them. 
+
+
+5. _Surface Plane_
+
+	**Colour Pallette**
+
+	![Colour Palette](documents/colour_palette/hackathon_colors.png)
+
+	* For the colours we used [Inclusive Color Palettes for the Web](https://medium.com/cafe-pixo/inclusive-color-palettes-for-the-web-bbfe8cf2410e). This site gave us several colours and colour palettes to look at which are inclusive for all users. These colours are user friendly for visually impaired and do not ruin the experience for users that are not visually impaired
+
+	**Font**
+
+	* Google Fonts was used to import the fonts Quicksand & Montserrat into the base.css file. These fonts were used throughout the site.
 
 [Back to top ⇧](#diverspect)
 
 -----
-
-### Colour Pallette
-
-![Colour Palette](documents/colour_palette/hackathon_colors.png)
-
-For the colours we used [Inclusive Color Palettes for the Web](https://medium.com/cafe-pixo/inclusive-color-palettes-for-the-web-bbfe8cf2410e). This site gave us several colours and colour palettes to look at which are inclusive for all users. These colours are user friendly for visually impaired and do not ruin the experience for users that are not visually impaired
-
-### Font
-
-Google Fonts was used to import the fonts Quicksand & Montserrat into the base.css file. These fonts were used throughout the site.
 
 ## User Stories
 
@@ -212,32 +243,41 @@ Google Fonts was used to import the fonts Quicksand & Montserrat into the base.c
 
 -----
 
-## Features
-
--   Responsive on all device sizes.
-
--   Interactive elements.
-
-### Existing Features 
-
-1. Sign Up to open an account
-1. Login for users who already have an account
-1. View and edit account details
-1. View all other users posts and comments on the home page
-1. Individual users can create their own posts to talk about their own issues
-1. Individual users can also edit and delete their own posts and comments 
-
-### Future Features
-
-1. Text-to-Speech API. This will help many users who may struggle with reading on an electronic devices or for visually impaired users. This feature will read out what the other user has posted.
-1. Text Enlarger. This will enlarge text for users who may struggle with reading on electronic devices and are unable to use the text-to-speech feature. Users who having hearing problems and having poor vision can benefit from this feature as the text will become much larger.
-1. Change Backgrounds. This option will allow users with dyslexia to pick a background colour that is more suitable for them. 
-
 #### Features Visiable across All Pages
 
-#### Features Visiable on each page
+* Navbar: Diverspect logo, search box, profile button to log in and sign up, as well as view profile once logged in
+
+#### Features Visiable on each pages:
+
+_Home Page_
+
+* All forums will be displayed below the navbar.
+* Bottom right hand side of the page will have a button for the user to click that will take them back to the top of the page
+
+_Account Page_
+
+* Edit users details such as their username or email.
+
+_Log in and Sign up Pages_
+
+* These two pages will have a form for the user to fill out
+* Log In: For the log in form the user will need to put their email/username and then a password to get into their account
+* Sign Up: The user will need to put an email, username, a password, they will then also need to confirm their password. They can then create their account once all these fields are completed properly.
+
+_Edit Comment Page_
+
+* Once a user has created an account and logged in, any comments they make they can then edit. When editting a comment, a form will show up. It'll have the original comment the user made, the user can then click on this section of the form and edit the writing. They can then click save to submit their editted comment.
+
+_Create Forum Page_
+
+* This page will be a form with several sections. It will have a title and a desctiption section. The user will give their forum a title and then in the description section they can describe their inclusivity or disability problem that they wish to share.
 
 ### Features left to Implement
+
+* Follow a forum. This feature gives a user the ability to follow a specific forum that they have an interest in.
+* Once a user has followed a forum, they will then be able to view all their followed forums in their account page.
+* User can edit their profile information. They can change their username, email address and their pronouns preferences
+* Help button in navbar. This button would take the user to a FAQ page, with the hope of answering any of the queries the user has.
 
 ### Bugs and Fixes Implemented after Testing
 

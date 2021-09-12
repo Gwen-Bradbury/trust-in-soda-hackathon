@@ -60,7 +60,7 @@
                         <div class="input-group-append">
                             <button class="form-control btn rounded-5" type="submit">
                                 <span class="icon">
-                                    <i class="fas fa-search"></i>
+                                    <i class="fas fa-search text-white mt-1"></i>
                                 </span>
                             </button>
                         </div>
@@ -73,9 +73,9 @@
                     <li class="list-inline-item dropdown">
                         <a class="link-button nav-link" href="#" id="user-options" data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false">
-                            <div class="text-center">
+                            <div class="text-center text-white">
                                 <div><i class="fas fa-user fa-lg"></i></div>
-                                <p class="my-0">My Profile</p>
+                                <p class="my-0 profile-link">My Profile</p>
                             </div>
                         </a>
                         <!-- Only Show If User Authenticated or Superuser -->
@@ -115,24 +115,28 @@
     {% block content %}
     {% endblock %}
 
-    <!--Footer
-    <footer>
-        <div class="container-fluid text-center" id="footer">
-            <div class="row">
-                <div class="col">
-                    <h2>Follow us!</h2>
-                    () Social links ()
-                    <ul class="github-links">
-                        <li><a href="https://www.facebook.com" target="_blank"><i
-                                    class="fab fa-facebook footer-icons"></i></a></li>
-                        <li><a href="https://www.instagram.com" target="_blank"><i
-                                    class="fab fa-instagram footer-icons"></i></a></li>
-                        <li><a href="https://www.linkedin.com/" target="_blank"><i
-                                    class="fab fa-linkedin footer-icons"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+    <!--Footer-->
+    <footer class="footer">
+        <h3 class="footer-headline">Contributors</h3>
+        <h4>Follow us on GitHub!</h4>
+        <!-- Contributors Github links -->
+        <ul class="github-links">
+            <li><a href="https://github.com/Gwen-Bradbury" target="_blank" rel="noopener noreferrer" aria-label="Gwen avatar"><img
+                        src="media/gwenavatar.png" class="img-avatar" alt="contributor avatar"></a></li>
+            <li><a href="https://github.com/mwmlln" target="_blank" rel="noopener noreferrer" aria-label="Miwa avatar"><img
+                        src="media/miwaavatar.png" class="img-avatar" alt="contributor avatar"></a></li>
+            <li><a href="https://github.com/elerel" target="_blank" rel="noopener noreferrer" aria-label="eleanor avatar"><img
+                        src="media/eleanoravatar.png" class="img-avatar" alt="contributor avatar"></a></li>
+            <li><a href="https://github.com/kylelawrencedev" target="_blank" rel="noopener noreferrer" aria-label="kyle avatar"><img
+                        src="media/kyleavatar.png" class="img-avatar" alt="contributor avatar"></a></li>
+            <li><a href="https://github.com/emidiovaleretto" target="_blank" rel="noopener noreferrer" aria-label="emidio avatar"><img
+                        src="media/emidioavatar.png" class="img-avatar" alt="contributor avatar"></a></li>
+            <li><a href="https://github.com/CGPlusPlus" target="_blank" rel="noopener noreferrer" aria-label="conor avatar"><img
+                            src="media/conoravatar.png" class="img-avatar" alt="contributor avatar"></a></li>
+        </ul>
+    </div>
+</div>
+</div>
     </footer>-->
 
     {% block postload_js %}
