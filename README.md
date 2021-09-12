@@ -183,7 +183,6 @@ Wireframes created can be found [HERE](./WIREFRAMES.md)
 
 	* Users can use search through all the forms by just typing in some keywords. An example would be the user wanting to find a forum that talked about blindess. All the user needs to do is search terms such as, "blind", "blindess", "visually impaired" etc.
 
-
 	**Features**
 
 	*   Responsive on all device sizes.
