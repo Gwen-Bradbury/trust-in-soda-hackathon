@@ -44,6 +44,21 @@
                         <h1 class="title">Diverspect</h1>
                     </a>
                 </div>
+                <!-- Search Bar -->
+                <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
+                    <form method="GET" action="{% url 'forum' %}">
+                        <div class="input-group w-100">
+                            <input class="form-control rounded-5" type="text" name="q" placeholder="Search Our Forums">
+                            <div class="input-group-append">
+                                <button class="form-control btn rounded-5" type="submit">
+                                    <span class="icon">
+                                        <i class="fas fa-search"></i>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
                 <!-- My Account Dropdown -->
                 <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
                     <ul class="list-inline list-unstyled text-center my-0">
