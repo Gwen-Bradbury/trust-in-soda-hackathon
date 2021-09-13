@@ -514,10 +514,10 @@ header {
 
 @media (max-width: 440px) {
     .welcome-text {
-        font-size: 15px;
+        font-size: 12px;
     }
 
     .forum-btn {
-        font-size: 15px;
+        font-size: 12px;
     }
 }
