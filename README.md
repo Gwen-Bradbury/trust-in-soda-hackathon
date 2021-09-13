@@ -1,49 +1,47 @@
 # Diverspect
 
 ## Table of Contents
-- [Diverspect](#diverspect)
-	- [Table of Contents](#table-of-contents)
-	- [Introduction](#introduction)
-	- [UX](#ux)
-		- [**Overview**](#overview)
-		- [**Why Diverspect?**](#why-diverspect)
-		- [Goals](#goals)
-		- [Wireframes -](#wireframes--)
-		- [Design](#design)
-			- [Design Process](#design-process)
-	- [User Stories](#user-stories)
-		- [Target Audience](#target-audience)
-		- [As a Site User I want to...](#as-a-site-user-i-want-to)
-		- [As a Site Superuser](#as-a-site-superuser)
-		- [As a Developer](#as-a-developer)
-			- [Features Visiable across All Pages](#features-visiable-across-all-pages)
-			- [Features Visiable on each pages:](#features-visiable-on-each-pages)
-		- [Features left to Implement](#features-left-to-implement)
-		- [Bugs and Fixes Implemented after Testing](#bugs-and-fixes-implemented-after-testing)
-	- [Technologies Used](#technologies-used)
-		- [Backend Technologies](#backend-technologies)
-		- [Languages](#languages)
-		- [Libraries](#libraries)
-		- [API's](#apis)
-		- [Databases](#databases)
-		- [Tools](#tools)
-	- [Testing](#testing)
-		- [Validation of Code Testing](#validation-of-code-testing)
-			- [HTML](#html)
-			- [CSS](#css)
-			- [Javascript](#javascript)
-			- [Python](#python)
-	- [Deployment](#deployment)
-		- [Used Commands during Deployment](#used-commands-during-deployment)
-		- [Hosting on Heroku](#hosting-on-heroku)
-		- [Forking the GitHub Repository](#forking-the-github-repository)
-		- [Running this Project Locally](#running-this-project-locally)
-	- [Credits](#credits)
-		- [Content](#content)
-		- [Media](#media)
-		- [Acknowledgements](#acknowledgements)
-	- [Disclaimer](#disclaimer)
-			- [This website was made for educational purposes only](#this-website-was-made-for-educational-purposes-only)
+- [Introduction](#introduction)
+- [UX](#ux)
+  * [**Overview**](#--overview--)
+  * [**Why Diverspect?**](#--why-diverspect---)
+  * [Goals](#goals)
+  * [Wireframes -](#wireframes--)
+  * [Design](#design)
+    + [Design Process](#design-process)
+- [User Stories](#user-stories)
+  * [Target Audience](#target-audience)
+  * [As a Site User I want to...](#as-a-site-user-i-want-to)
+  * [As a Site Superuser](#as-a-site-superuser)
+  * [As a Developer](#as-a-developer)
+    + [Features Visiable across All Pages](#features-visiable-across-all-pages)
+    + [Features Visiable on each pages:](#features-visiable-on-each-pages-)
+  * [Features left to Implement](#features-left-to-implement)
+  * [Bugs and Fixes Implemented after Testing](#bugs-and-fixes-implemented-after-testing)
+- [Technologies Used](#technologies-used)
+  * [Backend Technologies](#backend-technologies)
+  * [Languages](#languages)
+  * [Libraries](#libraries)
+  * [API's](#api-s)
+  * [Databases](#databases)
+  * [Tools](#tools)
+- [Testing](#testing)
+  * [Validation of Code Testing](#validation-of-code-testing)
+    + [HTML](#html)
+    + [CSS](#css)
+    + [Javascript](#javascript)
+    + [Python](#python)
+- [Deployment](#deployment)
+  * [Used Commands during Deployment](#used-commands-during-deployment)
+  * [Hosting on Heroku](#hosting-on-heroku)
+  * [Forking the GitHub Repository](#forking-the-github-repository)
+  * [Running this Project Locally](#running-this-project-locally)
+- [Credits](#credits)
+  * [Content](#content)
+  * [Media](#media)
+  * [Acknowledgements](#acknowledgements)
+- [Disclaimer](#disclaimer)
+    + [This website was made for educational purposes only](#this-website-was-made-for-educational-purposes-only)
 
 ## Introduction
 
@@ -165,7 +163,9 @@ Wireframes created can be found [HERE](./WIREFRAMES.md)
 
 	**Result:** User Story accomplished.
 
-- _Database Structure_ 
+- _Database Structure_ - 
+
+You can see my data schema [here](./DATABASE_STRUCTURE.md)
 
 4. _Skeleton Plane_
 
@@ -529,21 +529,30 @@ For more information about the above process; https://help.github.com/en/github/
 
 ### Content
 
-1. Colour Scheme
+- [Colour Scheme](https://coolors.co/)
 
-2. Wireframes
+- [Wireframes](https://balsamiq.com/)
 
-3. Data Schema
+- [Data Schema](https://dbdiagram.io/home)
 
 ### Media
 
-1. Table of contents
-
-4. Tutorial Videos
+- [Table of contents](https://ecotrust-canada.github.io/markdown-toc/)
 
 - [Code-Institute](https://codeinstitute.net/)
 
+- [Font-Awesome](https://fontawesome.com/)
+
 ### Acknowledgements
+
+- Code Institute's [Slack](https://app.slack.com/client/T0L30B202/C0L316Z96) Channels and the many incredible alunni, mentors, tutors and users who contribute to them; the many pinned announcements, 
+pdf files, etc. were of great help, as was the advice and motivation given by the many members.
+
+- The Trust in SODA and SODASocial team behind the collaboration.
+
+- The Code Insitute team.
+
+- All the incredible members of team Diverspect who contributed time, effort and lines and lines of code to get this project into the world!
 
 ## Disclaimer
 
