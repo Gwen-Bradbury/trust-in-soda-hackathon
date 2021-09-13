@@ -32,7 +32,7 @@ body {
 p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 li {
@@ -514,10 +514,10 @@ header {
 
 @media (max-width: 440px) {
     .welcome-text {
-        font-size: 15px;
+        font-size: 12px;
     }
 
     .forum-btn {
-        font-size: 15px;
+        font-size: 12px;
     }
 }
