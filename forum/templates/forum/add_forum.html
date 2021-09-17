@@ -15,30 +15,27 @@
 {% block content %}
 <!-- Overlay for Background Image -->
 <div class="overlay"></div>
-<div class="container">
-    <div class="row">
-        <div class="col-sm-12 col-md-6 offset-md-3">
-            <h5 class="text-muted text-center">Add a Forum</h5>
-            <hr>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-sm-12 col-md-6 offset-md-3">
-            <!-- Add Post Form-->
-            <form method="POST" action="{% url 'add_forum' %}" class="form mb-2" enctype="multipart/form-data">
-                {% csrf_token %}
-                {% for field in add_forum_form %}
-                    {% if field.name != 'image' %}
-                        {{ field | as_crispy_field }}
-                    {% else %}
-                        {{ field }}
-                    {% endif %}
-                {% endfor %}
-                <div class="text-right">
-                    <a class="btn rounded-5 link-button" href="{% url 'forum' %}">Cancel</a>
-                    <button class="btn rounded-5 continue-button" type="submit">Add Forum</button>
-                </div>
-            </form>          
+<div class="contant-wrapper col-10 offset-1 col-md-8 offset-md-2 mt-5 mb-5 border border-2">
+    <h1 class="text-uppercase mb-5">Add A Forum</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 offset-md-3">
+                <!-- Add Post Form-->
+                <form method="POST" action="{% url 'add_forum' %}" class="form mb-2" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    {% for field in add_forum_form %}
+                        {% if field.name != 'image' %}
+                            {{ field | as_crispy_field }}
+                        {% else %}
+                            {{ field }}
+                        {% endif %}
+                    {% endfor %}
+                    <div class="text-right">
+                        <a class="btn rounded-5 link-button" href="{% url 'forum' %}">Cancel</a>
+                        <button class="btn rounded-5 continue-button" type="submit">Add Forum</button>
+                    </div>
+                </form>          
+            </div>
         </div>
     </div>
 </div>

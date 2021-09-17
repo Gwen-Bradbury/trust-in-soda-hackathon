@@ -13,16 +13,16 @@
 {% endblock %}
 
 {% block content %}
+<div class="contant-wrapper col-10 offset-1 col-md-8 offset-md-2 mt-5 mb-5 border border-2">
+    <h1 class="text-uppercase">All Forums</h1>
     <section>
-        <h2 class="title">All Forums</h2>
-        <hr>
         {% for forum in forum %}
         <div class="grid">
             <div class="spaced-between-row">
                 <a href="{% url 'forum_comments' forum.id %}" class="name-link">
                     <h2 class="subtitle">{{ forum.forum_name }}</h2>
                 </a>
-                <span class="follow-icon"><a href=""><i class="fas fa-plus-circle"></i> Follow</a></span>
+                <!-- <span class="follow-icon"><a href=""><i class="fas fa-plus-circle"></i> Follow</a></span> -->
             </div>
             <div class="row">
                 <div class="col-lg-12">
@@ -43,23 +43,24 @@
                             <span><i class="fas fa-comment-dots"></i>Add Comment</span>
                         </a>
                     </div>
-                    <div class="col-md-1 orange-icon">
+                    <!-- <div class="col-md-1 orange-icon">
                         <span><a href=""><i class="fas fa-pause-circle"></i></a></span>
                     </div>
                     <div class="col-md-1 blue-icon">
                         <span><a href=""><i class="fas fa-play-circle"></i></a></span>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
         {% endfor %}
     </section>
-    <!-- Back To Top Button -->
-    <div class="to-top-button shadow-sm rounded-5 border">
-        <a class="to-top-link d-flex h-100">
-            <i class="fas fa-arrow-up mx-auto my-auto"></i>
-        </a>	
-    </div>
+</div>
+<!-- Back To Top Button -->
+<div class="to-top-button shadow-sm rounded-5 border">
+    <a class="to-top-link d-flex h-100">
+        <i class="fas fa-arrow-up mx-auto my-auto"></i>
+    </a>	
+</div>
 {% endblock %}
 
 {% block postload_js %}

@@ -321,6 +321,9 @@ input[type="reset"]:hover {
     font-weight: bold;
 }
 
+.profile-buttons {
+    margin: 5px;
+}
 
 /* Search Bar Placeholder Colour */
 input[name='q']::placeholder {
@@ -452,7 +455,7 @@ header {
     right: 10px;
 }
 .to-top-link {
-    color: #DC2F02 !important;
+    color: #000 !important;
 }
 
 /* -------------------------------- Media Queries */

@@ -13,8 +13,8 @@
 {% endblock %}
 
 {% block content %}
-    <div class="contant-wrapper col-10 offset-1 col-md-8 offset-md-2 mt-3 mb-5 border border-2 text-center">
-        <h1 class="text-uppercase mt-3">Edit Forum</h1>
+<div class="contant-wrapper col-10 offset-1 col-md-8 offset-md-2 mt-5 mb-5 border border-2">
+    <h1 class="text-uppercase">Edit {{ forum.forum_name }}</h1>
         <section>
             <div class="container mb-3">
                 <form method="POST" action="{% url 'edit_forum' forum.id %}" class="form mb-2" enctype="multipart/form-data">
