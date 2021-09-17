@@ -295,6 +295,9 @@ input[type="reset"]:hover {
 
 .img-avatar {
     border-radius: 50px;
+    margin: 3px;
+    height: 3rem;
+    width: 3rem;
 }
 
 .footer {
@@ -377,21 +380,10 @@ header {
 .github-links li {
     display: inline;
     list-style: none;
-    flex-wrap: nowrap;
-    
 }
 
 .github-links {
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-bottom: 0;
     display: flex;
-}
-
-.github-links a {
-    font-size: 1.5rem;
-    padding-right: 2%;
-    padding-left: 2%;
 }
 
 /* Background Image Overlay */
@@ -513,6 +505,12 @@ header {
 
     .increment-qty, .decrement-qty {
         padding: .25rem .5rem !important;
+    }
+
+    .img-avatar {
+        height: 1rem;
+        width: 1rem;
+        margin: 0.5px;
     }
 }
 
