@@ -19,12 +19,12 @@
     <div class="contant-wrapper col-10 offset-1 col-md-8 offset-md-2 mt-5 mb-5 border border-2">
         <h1 class="text-uppercase">Profile</h1>
         <section>
-            <div class="container mb-3">
-                <div class="profile-container text-center">
+            <div class="container mb-3 row">
+                <div class="profile-container text-center col-12">
                     <img src="https://images.pexels.com/photos/4100717/pexels-photo-4100717.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-                        alt="profile image" class="rounded-circle d-block mb-3" style="margin: 0 auto;">
+                        alt="profile image" class="profile-picture rounded-circle d-block mb-3" style="margin: 0 auto;">
                     <h3><span>{{ user.username | title }}'s Profile</span></h3>
-                    <p>Email Address: <span class="border border-1">{{ user.email }}</span></p> 
+                    <p class="email-address">Email Address: <span>{{ user.email }}</span></p> 
                 </div>
                 <br>
                 <div class="status-area d-flex d-flex justify-content-evenly">
