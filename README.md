@@ -165,7 +165,7 @@ Wireframes created can be found [HERE](./WIREFRAMES.md)
 
 - _Database Structure_ - 
 
-You can see my data schema [here](./DATABASE_STRUCTURE.md)
+You can see the data schema [here](./DATABASE_STRUCTURE.md)
 
 4. _Skeleton Plane_
 

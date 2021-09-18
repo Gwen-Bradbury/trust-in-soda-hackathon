@@ -7,15 +7,35 @@ from django.shortcuts import (
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 
+from django.db.models import Q
+
 from .models import Forum, Comment
 from .forms import CommentForm, AddForumForm
 
 
 def view_forum(request):
     """ Returns forum.html """
+    forums = Forum.objects.all()
+    query = None
+
+    if request.GET:
+        if 'q' in request.GET:
+                """ Search Bar Messages and Queries """
+                query = request.GET['q']
+                if not query:
+                    messages.error(
+                        request, "You didn't enter any search criteria!")
+                    return redirect(reverse('forum'))
+
+                queries = Q(forum_name__icontains=query) | Q(
+                    forum_description__icontains=query)
+                forums = forums.filter(queries)
+
     template = 'forum/forum.html'
     context = {
-        'forum': Forum.objects.all()
+        'forum': Forum.objects.all(),
+        'forums': forums,
+        'search_input': query,
     }
     return render(request, template, context)
 
